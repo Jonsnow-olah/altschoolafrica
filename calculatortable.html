@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator with Table</title>
+</head>
+<body>
+<style>
+    td{
+        text-align:center;
+    }
+
+    article img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-left: 700px;
+    
+    
+}
+</style>
+<body>
+    
+    <article>
+        <img src="img/my_face.jpg" alt="image">
+    </article>
+
+    <center>
+        <h1>Calculator</h1>
+    <table align="center" border="3" cellspacing="20px" width="300px" cellpadding="10px">
+        <tr>
+            <td style="border:0px;" colspan="3">
+            <input type="text" id="txtAns" maxlength="12" dir="rtl" style="width:300px;height:30px;font-size:25px;">
+            </td>
+            <td onclick="f3('c');">Clear</td>
+            <td style="background-color:red;">On/Off</td>
+        </tr>
+        <tr>
+            <td id="7">7</td>
+            <td id="8">8</td>
+            <td id="9">9</td>
+            
+            <td>*</td>
+            <td style="background-color:cyan;">AC</td>
+        </tr>
+        
+        <tr>
+            <td id="4">4</td>
+            <td id="5">5</td>
+            <td id="6">6</td>
+            <td>-</td>
+            <td>%</td>
+        </tr>
+        
+        <tr>
+            <td id="7">1</td>
+            <td id="8">2</td>
+            <td id="9">3</td>
+            <td  rowspan="2">+</td>
+            <td>/</td>
+        </tr>
+        
+        <tr>
+            <td>0</td>
+            <td>+/-</td>
+            <td>.</td>
+            <td>=</td>
+        </tr>
+            
+    </table>
+    </center>
+</body>
+</html>
